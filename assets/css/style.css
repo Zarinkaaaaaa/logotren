@@ -155,7 +155,7 @@ body {
         display: flex;
         z-index: 100;
         top: -0.1rem;
-        right: 2rem;
+        right: -1%;
         border: none;
         background: none;
         cursor: pointer;
@@ -323,6 +323,7 @@ body {
 
     .content {
         max-width: 375px;
+        margin: 0 auto;
     }
 
     .banner-content {
@@ -721,7 +722,7 @@ body {
     }
 
     .parents-content-one {
-        width: 375px;
+        width: 350px;
         height: 97px;
         margin-left: 25px;
     }
@@ -737,7 +738,7 @@ body {
     }
 
     .parents-content-two {
-        width: 375px;
+        width: 350px;
         height: none;
     }
 
@@ -759,7 +760,7 @@ body {
     }
 
     .parents-content-three {
-        width: 375px;
+        width: 350px;
         height: 101px;
         margin-left: 20px;
     }
@@ -773,12 +774,20 @@ body {
     .parents-content-three p {
         width: 255px;
     }
-
+    .parents-arrow {
+        left: 0;
+        bottom: 67%;
+    }
     .parents-arrow-2{
-        right:-13%;
+        right:0%;
         bottom:35%;
     }
-
+    .parents-arrow-3{
+        left:0;
+    }
+    .parents-content button{
+        margin-left: 175px;
+    }
     .recommendation {
         margin: 136px 0px 50px 0px;
     }
