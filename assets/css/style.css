@@ -331,6 +331,7 @@ body {
 
     .banner-content {
         flex-direction: column;
+        padding-top: 94px;
     }
 
     .boombox {
@@ -1547,23 +1548,23 @@ footer {
     }
 
     .about-content-text button::after {
-        top: 10%;
+        top: 12%;
     }
 
     .parents-content button::after {
-        top: 10%;
+        top: 12%;
     }
 
     .letters-title button:after {
-        top: 10%;
+        top: 12%;
     }
 
     .test-content-title button:after {
-        top: 10%;
+        top: 12%;
     }
 
     .partner-content-info button::after {
-        top: 10%;
+        top: 12%;
     }
 
     .testing-card-button {
@@ -2628,12 +2629,86 @@ footer {
         margin: 7px 0px 0px 86px;
         padding: 0px 0px 31px 32px;
     }
+
     .letter-content-background-right p {
         font-size: 12px;
     }
+
     .letter-content-background-wrong button {
         padding: 7px 5px;
         font-size: 10px;
+    }
+
+    .letter-content-play {
+        gap: 9px;
+        width: 195px;
+        height: 31px;
+    }
+
+    .letter-content-play .adapt-play {
+        width: 12px;
+    }
+
+    .letter-content-play img {
+        width: 139px;
+    }
+
+    .letter-content-sound {
+        gap: 5px;
+        width: 15px;
+        height: 62px;
+    }
+
+    .letter-content-sound img {
+        width: 5px;
+    }
+
+    .letter-content-background-img {
+        padding: 0px 0px 10px 19px;
+    }
+
+    .diagnoz-page-title {
+        gap: 33px;
+        flex-wrap: wrap;
+    }
+
+    .diagnoz-page-title-procent img {
+        width: 375px;
+    }
+
+    .diagnoz-page-main-info h1 {
+        font-size: 40px;
+    }
+
+    .diagnoz-page-main-info-variants {
+        width: 375px;
+    }
+
+    .diagnoz-page-main-background {
+        width: 375px;
+        height: 271px;
+    }
+    .diagnoz-page-main-img {
+        width: 354px;
+        height: 251px;
+        padding: 0px 0px 16px 10px;
+    }
+    .diagnoz-page-main-media {
+        gap: 17px;
+    }
+    .diagnoz-page {
+        margin: 75px 0px 79px 0px;
+    }
+    .diagnoz-play{
+        gap: 9px;
+        width: 287px;
+        height: 38px;
+    }
+    .diagnoz-play .diagnoz-adapt-play{
+        width: 20px;
+    }
+    .diagnoz-play .diagnoz-adapt-stroke{
+        width: 208px;
     }
     .error-page-content {
         margin: 197px 0px 178px 0px;
