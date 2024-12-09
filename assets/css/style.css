@@ -2175,9 +2175,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0px 13px 0px 33px;
-    box-shadow: -8px 8px 20px 0 #ede8f4;
     border-radius: 50px;
-    background-color: #ede8f476;
 }
 
 .letter-content-info-choose-part a {
