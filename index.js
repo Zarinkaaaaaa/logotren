@@ -26,4 +26,32 @@ showSlides();
 setInterval(() => {
     currentIndex = (currentIndex + 1) % document.querySelectorAll('.review-slider-card').length;
     showSlides();
-}, 10000); 
+}, 10000);
+
+
+
+const menu = document.querySelector(".menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const burger = document.querySelector(".burger");
+const closeIcon = document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+    if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+    } else {
+        menu.classList.add("showMenu");
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+    }
+}
+
+burger.addEventListener("click", toggleMenu);
+
+menuItems.forEach(
+    function (menuItem) {
+        menuItem.addEventListener("click", toggleMenu);
+    }
+)
