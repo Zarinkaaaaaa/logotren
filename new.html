@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="index.js"></script>
     <link rel="shortcut icon" href="assets/media/logo/logo.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>logotren</title>
 </head>
 
@@ -15,13 +16,19 @@
         <div class="content">
             <div class="head">
                 <a class="head-logo" href="index.html"><img src="assets/media/logo/logotype.svg" alt=""></a>
-                <nav>
-                    <a href="./trainer.html">Проверка нарушений</a>
-                    <a href="./diagnoz.html">Определение нарушений</a>
-                    <a href="./news.html">Компания</a>
-                    <a href="#">Рекомендации</a>
-                </nav>
-                <button>Задайте вопрос</button>
+                <ul class="menu">
+                    <nav>
+                        <a href="./trainer.html">Проверка нарушений</a>
+                        <a href="./diagnoz.html">Определение нарушений</a>
+                        <a href="./news.html">Компания</a>
+                        <a href="#">Рекомендации</a>
+                    </nav>
+                    <button>Задайте вопрос</button>
+                </ul>
+                <button class="burger">
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                </button>
             </div>
         </div>
     </header>
@@ -39,7 +46,7 @@
 
                     <div class="new-main">
                         <div class="new-main-info">
-                            <img src="assets/media/new/main.png" alt="">
+                            <img class="adapt-new-img" src="assets/media/new/main.png" alt="">
                             <div class="new-main-info-text">
                                 <div class="new-main-info-title">
                                     <h2>Название новости</h2>
@@ -53,17 +60,14 @@
                                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                             consequat.
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu
-                                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                                            in
-                                            culpa qui officia deserunt mollit anim id est laborum."</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            eu"</p>
+                                        <p class="adapt-new-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor
                                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
                                         </p>
                                     </div>
-                                    <a href=""><img src="assets/media/new/Arrow.png" alt=""></a>
+                                    <a href="./news.html"><img src="assets/media/new/Arrow.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
