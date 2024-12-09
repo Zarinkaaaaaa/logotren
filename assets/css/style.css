@@ -1532,26 +1532,38 @@ footer {
     width: 81.21px;
 }
 
+.adapt-banner-btn {
+    display: none;
+}
+
 /*footer*/
 @media screen and (max-width:480px) {
+    .adapt-banner-btn {
+        display: block;
+    }
+
+    .banner-content-info-button {
+        display: none;
+    }
+
     .about-content-text button::after {
-        top: 30%;
+        top: 10%;
     }
 
     .parents-content button::after {
-        top: 30%;
+        top: 10%;
     }
 
     .letters-title button:after {
-        top: 30%;
+        top: 10%;
     }
 
     .test-content-title button:after {
-        top: 30%;
+        top: 10%;
     }
 
     .partner-content-info button::after {
-        top: 30%;
+        top: 10%;
     }
 
     .testing-card-button {
@@ -2536,6 +2548,27 @@ footer {
         margin-bottom: 100px;
     }
 
+    .news-card-info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        top: 14%;
+        right: 7%;
+    }
+
+    .news-card-info h3 {
+        font-size: 28px;
+    }
+
+    .news-card-info-buttons {
+        gap: 155px;
+    }
+
+    .news-card img {
+        width: 375px;
+    }
+
     .adapt-new-text {
         display: none;
     }
@@ -2557,10 +2590,54 @@ footer {
         width: 143px;
 
     }
-    .new-main-scroll{
-        width: 300px;
+
+    .new-main-scroll {
+        width: 375px;
     }
+
     .new-main-scroll-card-info {
-        right: 16%;
+        right: 33%;
+    }
+
+    .letter-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .letter-content-info-choose-part {
+        width: 375px;
+        height: 42px;
+    }
+
+    .diagnoz-nav {
+        flex-wrap: wrap;
+    }
+
+    .letter-page-content {
+        margin-bottom: 80px;
+    }
+
+    .letter-content-background {
+        width: 375px;
+        height: 212px;
+    }
+
+    .letter-content-background-img {
+        width: 279px;
+        height: 197px;
+        margin: 7px 0px 0px 86px;
+        padding: 0px 0px 31px 32px;
+    }
+    .letter-content-background-right p {
+        font-size: 12px;
+    }
+    .letter-content-background-wrong button {
+        padding: 7px 5px;
+        font-size: 10px;
+    }
+    .error-page-content {
+        margin: 197px 0px 178px 0px;
+        height: 120px;
+        width: 375px;
     }
 }
