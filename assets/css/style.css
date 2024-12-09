@@ -1987,4 +1987,73 @@ footer {
     background: linear-gradient(200deg, rgba(255, 255, 255, 0.46) 0%, rgba(230, 222, 242, 0.46) 87.93%);
 }
 
+.diagnoz-page-main-media {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+}
+
+.diagnoz-page-main-background {
+    border-radius: 30px;
+    width: 547px;
+    height: 395px;
+    background: #fff;
+}
+
+.diagnoz-page-main-img {
+    background: url(../media/letter-page/image.png);
+    background-size: cover;
+    width: 527px;
+    height: 375px;
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+    padding: 0px 0px 31px 30px;
+}
+
+.diagnoz-page-main-switch {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.diagnoz-page-main-switch-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    width: 91px;
+    height: 33px;
+    justify-content: center;
+    backdrop-filter: blur(8.699999809265137px);
+    box-shadow: -4px 7px 17px 0 #efe9f5, inset 0 0 1px 0 #fff;
+    background-color: linear-gradient(200deg, rgba(255, 255, 255, 0.46) 0%, rgba(230, 222, 242, 0.46) 87.93%);
+}
+
+.diagnoz-page-main-switch-number p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c4c6c3;
+    font-family: 'onest-reg';
+}
+
+.diagnoz-page-main-switch-number .switch-active {
+    color: #8c3dfb;
+}
+.diagnoz-page-main-switch-arrow{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    align-items: center;
+}
 /*diagnoz-page*/
+
+/*error*/
+.error-page-content{
+    background: url(../media/404/404.png);
+    background-size: cover;
+}
+/*error*/
