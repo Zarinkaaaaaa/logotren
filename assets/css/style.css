@@ -2665,6 +2665,14 @@ footer {
         padding: 0px 0px 10px 19px;
     }
 
+    .letter-content-info-choose-part {
+        padding: 0px 13px 0px 20px;
+    }
+
+    .yes {
+        padding-left: 49px;
+    }
+
     .diagnoz-page-title {
         gap: 33px;
         flex-wrap: wrap;
@@ -2686,28 +2694,35 @@ footer {
         width: 375px;
         height: 271px;
     }
+
     .diagnoz-page-main-img {
         width: 354px;
         height: 251px;
         padding: 0px 0px 16px 10px;
     }
+
     .diagnoz-page-main-media {
         gap: 17px;
     }
+
     .diagnoz-page {
         margin: 75px 0px 79px 0px;
     }
-    .diagnoz-play{
+
+    .diagnoz-play {
         gap: 9px;
         width: 287px;
         height: 38px;
     }
-    .diagnoz-play .diagnoz-adapt-play{
+
+    .diagnoz-play .diagnoz-adapt-play {
         width: 20px;
     }
-    .diagnoz-play .diagnoz-adapt-stroke{
+
+    .diagnoz-play .diagnoz-adapt-stroke {
         width: 208px;
     }
+
     .error-page-content {
         margin: 197px 0px 178px 0px;
         height: 120px;
