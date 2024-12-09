@@ -2043,17 +2043,58 @@ footer {
 .diagnoz-page-main-switch-number .switch-active {
     color: #8c3dfb;
 }
-.diagnoz-page-main-switch-arrow{
+
+.diagnoz-page-main-switch-arrow {
     display: flex;
     flex-direction: row;
-    gap:16px;
+    gap: 16px;
     align-items: center;
 }
+
 /*diagnoz-page*/
 
 /*error*/
-.error-page-content{
+.error-page-content {
     background: url(../media/404/404.png);
     background-size: cover;
+    margin: 135px 0px 123px 0px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.error-page-content h3 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #646464;
+    font-family: 'onest-reg';
+}
+
+.error-page-content .error-fiola {
+    color: #8c3dfb;
+}
+
+.error-page-content a {
+    border-radius: 30px;
+    padding: 15px 20px;
+    width: 130px;
+    height: 50px;
+    background: #f0e6fe;
+    font-size: 16px;
+    color: rgba(131, 42, 248, 0.76);
+    position: relative;
+}
+.error-page-content a::before{
+    content: "←";
+    color: #8c3dfb;
+    font-size: 25px;
+    position: absolute;
+    font-family: none;
+    top: 20%;
+    left: -13px;
+}
+
 /*error*/
