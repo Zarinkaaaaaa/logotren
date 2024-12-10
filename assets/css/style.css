@@ -75,6 +75,10 @@ body {
     color: #646464;
     font-family: 'mont';
 }
+.head nav a:hover{
+    color:#8c3dfb;
+    transition: 0.5s;
+}
 
 .head button {
     border-radius: 30px;
@@ -87,6 +91,10 @@ body {
     cursor: pointer;
     background: #f0e6fe;
     font-family: 'onest';
+}
+.head button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .burger {
@@ -283,17 +291,21 @@ body {
     display: flex;
     color: #fff;
     padding: 14px 0px 0px 26px;
+    cursor: pointer;
+}
+.banner-content-info-button button:hover{
+    transform: translateX(10%);
+    transition: 1s;
 }
 
 .banner-content-info-button .arrow {
     width: 1px;
     padding-right: 15px;
-    position: absolute;
+    position:fixed;
     color: #fff;
     right: 30%;
     top:30%;
 }
-
 .boombox {
     /* background: url(../media/banner/Ellipse.png);
     background-size: cover; */
@@ -423,6 +435,11 @@ body {
     border: none;
     position: relative;
     font-family: 'onest';
+    cursor: pointer;
+}
+.about-content-text button:hover{
+    transform: translateX(10%);
+    transition: 1s;
 }
 
 .about-content-text button::after {
@@ -653,8 +670,12 @@ body {
     border: none;
     margin-left: 218px;
     position: relative;
+    cursor: pointer;
 }
-
+.parents-content button:hover{
+    transform: translateX(10%);
+    transition: 1s;
+}
 .parents-content button::after {
     content: "→";
     color: #8c3dfb;
@@ -888,7 +909,12 @@ body {
     color: rgba(131, 42, 248, 0.76);
     border: none;
     margin-left: 218px;
+    cursor: pointer;
     position: relative;
+}
+.letters-title button:hover{
+    transform: translateX(10%);
+    transition: 1s;
 }
 
 .letters-title button:after {
@@ -913,7 +939,6 @@ body {
     position: relative;
     padding-left: 116px;
 }
-
 .letter-card img {
     width: 28.44px;
     height: 28.4px;
@@ -1159,6 +1184,11 @@ body {
     margin-left: 218px;
     position: relative;
 }
+.test-content-title button:hover{
+    cursor: pointer;
+    transform: translateX(10%);
+    transition: 1s;
+}
 
 .test-content-title button:after {
     content: "→";
@@ -1205,6 +1235,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
+}
+.testing-card-button:hover{
+    cursor: pointer;
+    transform:translateY(-10%);
+    transition: 1s;
 }
 
 .testing-card-button-arrow {
@@ -1459,6 +1495,11 @@ body {
     border: none;
     color: rgba(131, 42, 248, 0.76);
     position: relative;
+}
+.partner-content-info button:hover{
+    cursor: pointer;
+    transform: translateX(10%);
+    transition: 1s;
 }
 
 .partner-content-info button::after {
@@ -1942,7 +1983,10 @@ footer {
     color: #646464;
     font-family: 'onest-reg';
 }
-
+.news-card-info-buttons a:hover{
+    transform: translateX(10%);
+    transition: 1s;
+}
 .news-card-info-buttons .news-card-info-buttons-arrow {
     width: 28px;
     height: 28px;
@@ -2040,7 +2084,10 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
+.new-main-info-content a:hover{
+    transform: translateX(-10%);
+    transition: 1s;
+}
 .new-main-scroll {
     display: flex;
     flex-direction: column;
@@ -2502,10 +2549,10 @@ footer {
 }
 /*error*/
 
-@media screen and (max-width:480px) {
-
+@media screen and (max-width:480px) {    
     .adapt-flex{
         display: flex;
+        margin-bottom: 20px;
 
     }
     .adapt-none{
