@@ -265,18 +265,22 @@ body {
 }
 
 .banner-content-info-button {
-    background: url(../media/banner/button.png);
-    background-size: cover;
-    padding: 14px 15px 14px 21px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    gap: 51px;
+    justify-content: center;
 }
 
-.banner-content-info-button a {
+.banner-content-info-button button {
+    height: 47px;
+    width: 239px;
+    background: url(../media/banner/button.png);
+    background-size: cover;
+    border: none;
     font-weight: 500;
     font-size: 16px;
+    display: flex;
     color: #fff;
+    padding: 14px 0px 0px 26px;
 }
 
 .banner-content-info-button .arrow {
