@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -268,6 +269,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .banner-content-info-button button {
@@ -284,8 +286,12 @@ body {
 }
 
 .banner-content-info-button .arrow {
-    width: 1.50px;
+    width: 1px;
     padding-right: 15px;
+    position: absolute;
+    color: #fff;
+    right: 30%;
+    top:30%;
 }
 
 .boombox {
@@ -2491,11 +2497,20 @@ footer {
     top: 20%;
     left: -13px;
 }
-
+.adapt-flex{
+    display: none;
+}
 /*error*/
 
 @media screen and (max-width:480px) {
 
+    .adapt-flex{
+        display: flex;
+
+    }
+    .adapt-none{
+        display: none;
+    }
     .choose-content {
         margin: 75px 0px 148px 0px;
     }
@@ -2692,11 +2707,13 @@ footer {
 
     .diagnoz-page-main-info-variants {
         width: 375px;
+        justify-content: center;
     }
 
     .diagnoz-page-main-background {
         width: 375px;
         height: 271px;
+        padding-top: 1px;
     }
 
     .diagnoz-page-main-img {
@@ -2726,7 +2743,9 @@ footer {
     .diagnoz-play .diagnoz-adapt-stroke {
         width: 208px;
     }
-
+    .diagnoz-page-main-info {
+        align-items: center;
+    }
     .error-page-content {
         margin: 197px 0px 178px 0px;
         height: 120px;
