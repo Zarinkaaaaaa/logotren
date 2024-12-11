@@ -206,9 +206,9 @@
                 if (window.innerWidth <= 480) {
                     if (!swiper) {
                         swiper = new Swiper('.swiper-container', {
-                            slidesPerView: 1.3, // Отображаем 1.4 слайда
-                            spaceBetween: 10,   // Расстояние между слайдами
-                            centeredSlides: false, // Активный слайд по центру
+                            slidesPerView: 1.3,
+                            spaceBetween: 10,  
+                            centeredSlides: false, 
                             pagination: {
                                 el: '.swiper-pagination',
                                 clickable: true,
@@ -223,10 +223,10 @@
                 }
             }
 
-            // Проверяем при загрузке страницы
+            
             checkScreenWidth();
 
-            // Проверяем при изменении размера окна
+            
             window.addEventListener('resize', checkScreenWidth);
         });
     </script>
