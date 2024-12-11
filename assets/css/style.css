@@ -2606,16 +2606,10 @@ footer {
 /*error*/
 
 @media screen and (max-width:480px) {
-    .adapt-flex {
-        display: flex;
-        margin-bottom: 20px;
-
+    
+    .diagnoz-page-content {
+        gap: 39px;
     }
-
-    .adapt-none {
-        display: none;
-    }
-
     .choose-content {
         margin: 75px 0px 148px 0px;
     }
@@ -2723,10 +2717,12 @@ footer {
     } */
 
     .letter-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 50px;
     }
-
+    .diagnoz-nav {
+        margin: 40px 0px 42px 0px;
+    }
     .letter-content-info-choose-part {
         width: 375px;
         height: 42px;
