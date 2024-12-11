@@ -5,7 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
+
 }
 
 body {
@@ -75,8 +75,9 @@ body {
     color: #646464;
     font-family: 'mont';
 }
-.head nav a:hover{
-    color:#8c3dfb;
+
+.head nav a:hover {
+    color: #8c3dfb;
     transition: 0.5s;
 }
 
@@ -92,7 +93,8 @@ body {
     background: #f0e6fe;
     font-family: 'onest';
 }
-.head button:hover{
+
+.head button:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
@@ -167,7 +169,7 @@ body {
         display: flex;
         z-index: 100;
         top: -0.1rem;
-        right: -1%;
+        right: 0;
         border: none;
         background: none;
         cursor: pointer;
@@ -293,7 +295,8 @@ body {
     padding: 14px 0px 0px 26px;
     cursor: pointer;
 }
-.banner-content-info-button button:hover{
+
+.banner-content-info-button button:hover {
     transform: translateX(10%);
     transition: 1s;
 }
@@ -301,11 +304,12 @@ body {
 .banner-content-info-button .arrow {
     width: 1px;
     padding-right: 15px;
-    position:fixed;
+    position: fixed;
     color: #fff;
     right: 30%;
-    top:30%;
+    top: 30%;
 }
+
 .boombox {
     /* background: url(../media/banner/Ellipse.png);
     background-size: cover; */
@@ -437,7 +441,8 @@ body {
     font-family: 'onest';
     cursor: pointer;
 }
-.about-content-text button:hover{
+
+.about-content-text button:hover {
     transform: translateX(10%);
     transition: 1s;
 }
@@ -672,10 +677,12 @@ body {
     position: relative;
     cursor: pointer;
 }
-.parents-content button:hover{
+
+.parents-content button:hover {
     transform: translateX(10%);
     transition: 1s;
 }
+
 .parents-content button::after {
     content: "→";
     color: #8c3dfb;
@@ -912,7 +919,8 @@ body {
     cursor: pointer;
     position: relative;
 }
-.letters-title button:hover{
+
+.letters-title button:hover {
     transform: translateX(10%);
     transition: 1s;
 }
@@ -939,6 +947,7 @@ body {
     position: relative;
     padding-left: 116px;
 }
+
 .letter-card img {
     width: 28.44px;
     height: 28.4px;
@@ -1184,7 +1193,8 @@ body {
     margin-left: 218px;
     position: relative;
 }
-.test-content-title button:hover{
+
+.test-content-title button:hover {
     cursor: pointer;
     transform: translateX(10%);
     transition: 1s;
@@ -1237,9 +1247,10 @@ body {
     color: #fff;
     cursor: pointer;
 }
-.testing-card-button:hover{
+
+.testing-card-button:hover {
     cursor: pointer;
-    transform:translateY(-10%);
+    transform: translateY(-10%);
     transition: 1s;
 }
 
@@ -1496,7 +1507,8 @@ body {
     color: rgba(131, 42, 248, 0.76);
     position: relative;
 }
-.partner-content-info button:hover{
+
+.partner-content-info button:hover {
     cursor: pointer;
     transform: translateX(10%);
     transition: 1s;
@@ -1983,10 +1995,12 @@ footer {
     color: #646464;
     font-family: 'onest-reg';
 }
-.news-card-info-buttons a:hover{
+
+.news-card-info-buttons a:hover {
     transform: translateX(10%);
     transition: 1s;
 }
+
 .news-card-info-buttons .news-card-info-buttons-arrow {
     width: 28px;
     height: 28px;
@@ -2084,10 +2098,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.new-main-info-content a:hover{
+
+.new-main-info-content a:hover {
     transform: translateX(-10%);
     transition: 1s;
 }
+
 .new-main-scroll {
     display: flex;
     flex-direction: column;
@@ -2116,6 +2132,7 @@ footer {
 .new-main-scroll-card {
     position: relative;
     padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .new-main-scroll-card-info {
@@ -2175,6 +2192,34 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    /* Скрываем обычный скролл на мобильных устройствах */
+    .new-main-scroll {
+        height: auto;
+        overflow: hidden;
+    }
+
+    /* Стили Swiper.js для мобильной версии */
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide {
+        width: 80%; /* Ширина слайда */
+        box-sizing: border-box;
+    }
+
+    .swiper-slide:not(.swiper-slide-active) {
+        opacity: 0.7; /* Уменьшаем неактивные слайды */
+    }
+    
 }
 
 /*new*/
@@ -2544,20 +2589,24 @@ footer {
     top: 20%;
     left: -13px;
 }
-.adapt-flex{
+
+.adapt-flex {
     display: none;
 }
+
 /*error*/
 
-@media screen and (max-width:480px) {    
-    .adapt-flex{
+@media screen and (max-width:480px) {
+    .adapt-flex {
         display: flex;
         margin-bottom: 20px;
 
     }
-    .adapt-none{
+
+    .adapt-none {
         display: none;
     }
+
     .choose-content {
         margin: 75px 0px 148px 0px;
     }
@@ -2656,13 +2705,13 @@ footer {
 
     }
 
-    .new-main-scroll {
-        width: 375px;
+    /* .new-main-scroll {
+        width: 437px;
     }
 
     .new-main-scroll-card-info {
-        right: 33%;
-    }
+        right: 19%;
+    } */
 
     .letter-content {
         flex-direction: column;
@@ -2790,9 +2839,11 @@ footer {
     .diagnoz-play .diagnoz-adapt-stroke {
         width: 208px;
     }
+
     .diagnoz-page-main-info {
         align-items: center;
     }
+
     .error-page-content {
         margin: 197px 0px 178px 0px;
         height: 120px;
