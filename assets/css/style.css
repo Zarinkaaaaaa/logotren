@@ -143,11 +143,17 @@ body {
 
     .head img {
         width: 80%;
-        margin-bottom: 15px;
     }
 }
 
+.adapt-logo{
+    display: none;
+}
+
 @media (max-width: 480px) {
+    .adapt-logo{
+        display: flex;
+    }
     .menu li a {
         color:#000;
         font-size: 32px;
@@ -186,7 +192,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 150px;
+        padding-top: 100px;
         gap: 30px;
         z-index: 80;
     }
@@ -208,6 +214,7 @@ body {
 
     .burger .material-icons {
         font-size: 33px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     }
 
     .showMenu {
@@ -221,9 +228,12 @@ body {
     .head nav a {
         font-size: 20px;
         color:#000;
-        font-family: 'onest-reg';
+        
+        position: relative;
+        text-transform: uppercase;
+        
     }
-
+    
     .head button {
         font-size: 18px;
         width: 300px;
@@ -1606,9 +1616,9 @@ footer {
         display: block;
     }
 
-    /* .banner-content-info-button {
+    .banner-content-info-button {
         display: none;
-    } */
+    }
 
     .about-content-text button::after {
         top: 12%;
