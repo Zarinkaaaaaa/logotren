@@ -686,14 +686,15 @@ body {
     .parents-content-two {
         width: 350px;
         height: none;
+        z-index: 10;
     }
 
     .parents-content-two p {
-        width: 285px;
+        width: 222px;
     }
 
     .parents-content-two-number {
-        top: 9%;
+        top: 14%;
         right: -7%;
         z-index: 50;
     }
@@ -703,7 +704,7 @@ body {
     }
 
     .adapt-two {
-        top: -21%;
+        top: -5%;
         z-index: 50;
     }
 
@@ -725,20 +726,17 @@ body {
 
     .parents-arrow {
         left: 0;
-        bottom: 67%;
+        bottom: 54%;
     }
 
     .parents-arrow-2 {
         right: 0%;
-        bottom: 35%;
-    }
-
-    .parents-arrow-3 {
-        left: 0;
+        bottom: 6%;
+        z-index: 0;
     }
 
     .parents-content button {
-        margin-left: 175px;
+        margin-left: 84px;
     }
 
     .recommendation {
@@ -990,7 +988,7 @@ body {
 
 @media screen and (max-width:480px) {
     .letters {
-        margin-top: 467px;
+        margin-top: 150px;
     }
 
     .letters-content {
