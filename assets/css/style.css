@@ -490,7 +490,7 @@ body {
 .recommend {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .parents {
@@ -605,7 +605,9 @@ body {
     top: -20%;
     right: -4%;
 }
-
+.two-two-number{
+    top:-4%;
+}
 .parents-content-two-number p {
     font-weight: 300;
     font-size: 48px;
@@ -615,62 +617,16 @@ body {
     width: 100px;
 }
 
-.parents-content-three {
-    border-radius: 15px;
-    padding: 10px 10px 10px 95px;
-    width: 447px;
-    height: 72px;
-    background: #c294ff;
-    position: relative;
-    margin-left: 65px;
-}
-
-.parents-content-three p {
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: -0.03em;
-    color: #fff;
-    font-family: 'onest-reg';
-    width: 340px;
-}
-
-.parents-content-three-number {
-    border-radius: 15px;
-    width: 100px;
-    height: 100px;
-    backdrop-filter: blur(8.699999809265137px);
-    box-shadow: -10px 18px 28px 0 #ede8f4, inset 2px 0 4px 0 #fff, inset -2px 1px 4px 0 #fff;
-    background: linear-gradient(200deg, rgba(255, 255, 255, 0.46) 0%, rgba(230, 222, 242, 0.46) 87.93%);
-    padding: 22px 0px 0px 34px;
-    position: absolute;
-    top: -20%;
-    left: -6%;
-}
-
-.parents-content-three-number p {
-    font-weight: 300;
-    font-size: 48px;
-    letter-spacing: -0.03em;
-    color: #fff;
-    font-family: 'onest-light';
-}
-
 .parents-arrow {
     position: absolute;
     left: -17%;
-    bottom: 63%;
+    bottom: 49%;
 }
 
 .parents-arrow-2 {
     position: absolute;
     right: -19%;
-    bottom: 31%;
-}
-
-.parents-arrow-3 {
-    position: absolute;
-    bottom: 4%;
-    left: -12%;
+    bottom: 6%;
 }
 
 .parents-content button {
@@ -683,7 +639,7 @@ body {
     font-size: 16px;
     color: rgba(131, 42, 248, 0.76);
     border: none;
-    margin-left: 218px;
+    margin-left: 313px;
     position: relative;
     cursor: pointer;
 }
@@ -704,68 +660,6 @@ body {
 }
 
 /*recommendation*/
-
-
-/*navigation*/
-.navigation-content {
-    background: url(../media/navigation/Union.png);
-    background-size: cover;
-    width: 100%;
-    height: 424px;
-    display: flex;
-    flex-direction: column;
-    gap: 77px;
-    align-items: center;
-    padding: 116px 0px 0px 134px;
-    margin-bottom: 266px;
-    position: relative;
-}
-
-.navigation-content-top {
-    display: flex;
-    flex-direction: row;
-    gap: 265px;
-}
-
-.navigation-content-text {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.navigation-content-text h3 {
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: -0.03em;
-    color: #000;
-    font-family: 'onest-reg';
-}
-
-.navigation-content-text p {
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: -0.03em;
-    color: #4d4d4e;
-    font-family: 'onest-light';
-}
-
-.navigation-figures {
-    position: absolute;
-    top: 1.5%;
-    left: 1%;
-}
-
-.navigation-square {
-    position: absolute;
-    top: 1.5%;
-    right: 34%;
-}
-
-.navigation-circle {
-    position: absolute;
-    left: 30.5%;
-    bottom: -36%;
-}
 
 @media screen and (max-width:480px) {
 
@@ -850,36 +744,7 @@ body {
     .recommendation {
         margin: 136px 0px 50px 0px;
     }
-
-    .navigation-content {
-        background: none;
-        gap: 50px;
-        padding: 111px 0px 0px 105px;
-    }
-
-    .navigation-content-top {
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .navigation-figures {
-        top: 25.5%;
-        left: -9%;
-    }
-
-    .navigation-square {
-        top: 82.5%;
-        left: -9%;
-    }
-
-    .navigation-circle {
-        left: -9%;
-        bottom: -72%;
-    }
 }
-
-/*navigation*/
-
 
 /*letters*/
 .letters-content {
@@ -1155,160 +1020,6 @@ body {
 }
 
 /*letters*/
-
-/*testing*/
-.test-content {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    margin-bottom: 140px;
-}
-
-.test-content-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.test-content-title h2 {
-    font-weight: 300;
-    font-size: 32px;
-    letter-spacing: -0.03em;
-    color: #c4c6c3;
-    font-family: 'onest-light';
-    position: relative;
-}
-
-.test-content-title h2::after {
-    content: "";
-    border: 1.50px solid #c4c6c3;
-    width: 100px;
-    height: 0px;
-    background: #c4c6c3;
-    position: absolute;
-    top: 46%;
-    left: 110%;
-}
-
-.test-content-title button {
-    border-radius: 30px;
-    padding: 15px 20px;
-    width: 165px;
-    height: 50px;
-    background: #f0e6fe;
-    font-family: 'onest';
-    font-size: 16px;
-    color: rgba(131, 42, 248, 0.76);
-    border: none;
-    margin-left: 218px;
-    position: relative;
-}
-
-.test-content-title button:hover {
-    cursor: pointer;
-    transform: translateX(10%);
-    transition: 1s;
-}
-
-.test-content-title button:after {
-    content: "→";
-    color: #8c3dfb;
-    position: absolute;
-    font-size: 26px;
-    top: 20%;
-    right: -7%;
-    font-family: none;
-}
-
-.testing-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 20px;
-}
-
-.testing-cards p {
-    font-weight: 300;
-    font-size: 24px;
-    letter-spacing: -0.03em;
-    color: rgba(34, 34, 34, 0.8);
-    font-family: 'onest-light';
-}
-
-.testing-card-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 52px;
-    padding: 10px 6px 10px 20px;
-    width: 124px;
-    height: 40px;
-    background: #c294ff;
-    margin-top: 14px;
-}
-
-.testing-card-button button {
-    background: none;
-    border: none;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.testing-card-button:hover {
-    cursor: pointer;
-    transform: translateY(-10%);
-    transition: 1s;
-}
-
-.testing-card-button-arrow {
-    border-radius: 100%;
-    background: #f8f6fa;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.testing-card-1 {
-    background: url(../media/testing/Subtract.png);
-    background-size: cover;
-    width: 1281px;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    gap: 145px;
-    padding: 45px 0px 0px 269px;
-}
-
-.testing-card-2 {
-    background: url(../media/testing/Subtract-2.png);
-    background-size: cover;
-    width: 1281px;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    gap: 66px;
-    padding: 45px 0px 0px 269px;
-}
-
-.testing-card-3 {
-    background: url(../media/testing/Subtract-3.png);
-    background-size: cover;
-    width: 1281px;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    gap: 171px;
-    padding: 45px 0px 0px 269px;
-}
-
-/*testing*/
-
 
 /*reviews*/
 .reviews-content {
@@ -2513,6 +2224,14 @@ footer {
     gap: 30px;
     align-items: flex-end;
     padding: 0px 0px 31px 30px;
+}
+.letter-content-sound {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.diagnoz-page-main-img:hover .letter-content-sound {
+    opacity: 1;
 }
 
 .diagnoz-page-main-switch {
