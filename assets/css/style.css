@@ -67,6 +67,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    margin-right: 80px;
 }
 
 .head nav a {
@@ -303,7 +304,7 @@ body {
     font-size: 16px;
     display: flex;
     color: #fff;
-    padding: 14px 0px 0px 26px;
+    padding: 14px 0px 0px 66px;
     cursor: pointer;
 }
 
