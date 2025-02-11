@@ -1316,6 +1316,11 @@ footer {
     color: #646464;
 }
 
+.everytech a {
+    height: 16px;
+    width: 81.21px;
+}
+
 .everytech img {
     height: 16px;
     width: 81.21px;
@@ -2858,7 +2863,7 @@ footer {
         width: 342px;
         display: flex;
         justify-content: normal;
-        align-items:baseline;
+        align-items: baseline;
         position: relative;
         margin-bottom: 21px;
         flex-direction: column;
@@ -2872,13 +2877,15 @@ footer {
         width: 342px;
         display: flex;
         justify-content: normal;
-        align-items:baseline;
+        align-items: baseline;
         flex-direction: column;
     }
+
     .requisites-content-block-item::after {
         width: 89%;
         bottom: -15%;
     }
+
     .documents-content h2::after {
         top: 50%;
         left: 72%;
